@@ -1,8 +1,7 @@
 <h1 align="center">
     Git Hooks for terraform 
 </h1>
-<p align="center" style="font-size: 1.2rem;"> pre-commit hooks to keep [Terraform](https://terraform.io)
-configurations in a good shape ;) </p>
+<p align="center" style="font-size: 1.2rem;"> pre-commit hooks to keep [Terraform](https://terraform.io) configurations in a good shape ;) </p> 
 
 <hr />
 
