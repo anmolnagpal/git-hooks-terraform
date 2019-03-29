@@ -1,0 +1,15 @@
+- id: fmt
+  name: fmt
+  description: Formats terraform scripts
+  entry: scripts/fmt.sh
+  language: script
+  files: \.tf$
+  exclude: \.terraform\/.*$
+
+- id: validate
+  name: validate
+  description: Validates terraform syntax
+  entry: scripts/validate.sh
+  language: script
+  files: \.tf$
+  exclude: \.terraform\/.*$
