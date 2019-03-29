@@ -35,7 +35,7 @@ cat <<EOF > .pre-commit-config.yaml
   - id: fmt
   - id: validate      
 - repo: git://github.com/pre-commit/pre-commit-hooks
-  rev: v2.1.0
+  rev: v2.1.0 # Use the ref you want to point at
   hooks:
     - id: check-merge-conflict
 EOF
