@@ -12,10 +12,10 @@
 
 Enjoy the clean and documented code!
 
-## 🔰Getting Started
+### 🔰Getting Started
 > Follow the steps below to get started
 
-## 🔨 Setting Up pre-commit
+#### 🔨 Setting Up pre-commit
 > install the pre-commit package
 
 - Using pip:
@@ -26,8 +26,7 @@ pip install pre-commit
 ```bash
 brew install pre-commit
 ```
-> Step into the repository you want to have the pre-commit hooks installed and run:
-
+Step into the repository you want to have the pre-commit hooks installed and run:
 ```yaml
 cat <<EOF > .pre-commit-config.yaml
 - repo: git://github.com/anmolnagpal/git-hooks-terraform
@@ -41,13 +40,11 @@ cat <<EOF > .pre-commit-config.yaml
     - id: check-merge-conflict
 EOF
 ```
-
-> Install the pre-commit hook
+Install the pre-commit hook
 ```
 pre-commit install
 ```
-
-> After pre-commit hook has been installed you can run it manually on all files in the repository
+After pre-commit hook has been installed you can run it manually on all files in the repository
 ```
 pre-commit run -a
 ```
